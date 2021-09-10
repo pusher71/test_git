@@ -4,7 +4,8 @@
 #include <iostream>
 
 int main() {
-    std::cout << "Not alone!\n";
+    std::cout << "Not alone!" << std::endl;
+
     return 0;
 }
 
