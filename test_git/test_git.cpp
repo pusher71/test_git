@@ -3,8 +3,14 @@
 
 #include <iostream>
 
+int module1(int arg1, int arg2)
+{
+    return arg1 - arg2;
+}
+
 int main()
 {
+    std::cout << module1(5, 3) << std::endl;
     std::cout << "Hello World!\n";
 }
 
